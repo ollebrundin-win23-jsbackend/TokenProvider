@@ -19,7 +19,7 @@ namespace TokenProvider.Controllers
             _configuration = configuration;
         }
 
-        [HttpPost("GetToken")]
+        [HttpGet("GetToken")]
         [UseApiKey]
 
         public IActionResult GetToken()
